@@ -21,7 +21,6 @@ array.push(5)
 puts "#{array}"
 
 # #deleting
-
 hash.delete("c")
 puts hash
 array.pop()
@@ -46,8 +45,17 @@ array.each do |value|
   puts value
 end
 
+#TODO
 #sorting
 
+
+#WHEN TO USE LOOPS
+  #while loops to guarantee start at index[0]
+    #can break out once a condition is met
+  #each loop doesn't guarantee start at index[0] but must go through each item
+    #can't break because it will go through every item
+
+  
 #while loops
 
 #times loop
@@ -57,5 +65,15 @@ end
 #matrix 2d array
 
 #define and use methods
+#input:
+#output:
+def whatever()
+  thething = 
+
+
+
+  return thething
+end
+
 
 #if statements
