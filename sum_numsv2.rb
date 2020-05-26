@@ -73,4 +73,5 @@
   # if false, check next values by incrementing j and incrementing i when j >input_array.length-1
 
 #Optimize (Big O and improvements):
-  #
+  #Time: O(n2)
+  #Space: O(1)
