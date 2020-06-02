@@ -30,6 +30,7 @@
 # input_array = [-8, 500, 2, 0, 10]
 #Time: o(n)
 #Space: o(1)
+
 input_array = [-10, -20, -30, -10]
 sorted_array = input_array.sort
 # puts sorted_array

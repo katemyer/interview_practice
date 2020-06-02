@@ -2,6 +2,9 @@
 # @param {Integer} m
 # @param {Integer[][]} indices
 # @return {Integer}
+
+#Time: O(n * m)
+#Space = O(n+m)
 def odd_cells(n, m, indices)
     #create initial matrix
     num_of_rows = n
@@ -76,7 +79,7 @@ def odd_cells(n, m, indices)
     
 end #method
 
-puts odd_cells(2,3,[[0,1],[1,1]])
+puts odd_cells(2,3,[[1,1],[1,1]])
 
 #answer should be 6
 

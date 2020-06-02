@@ -43,9 +43,6 @@ def find_non_repeat_char(string)
   end
 
   #if first value in hash is equal to 1, return the char
- 
-
-
   return char_hash
 end
 
