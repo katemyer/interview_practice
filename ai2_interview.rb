@@ -9,14 +9,14 @@
 #input = [[1,2,3],[4,5,6],[7,8,9],[10,11,12]]
 # returns = [[1, 4, 7, 10], [2, 5, 8, 11], [3, 6, 9, 12]]
 
-#Time: O(n2)
-#Space: O(n)
+#Time: O(n2) because looping through i and j
+#Space: O(n) because input array grows, the new array grows 
 
 #Testing considerations
   #Make sure length of sub arrays inside input are equal 
   #Check for nil values if requirement is to return a "filled" out array
   #Test to see that the new_array is created correctly so that values can be pushed in accordingly
-  
+
 
 def matrix(input)
   # shortcut for making matrix
